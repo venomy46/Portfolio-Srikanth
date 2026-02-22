@@ -2,6 +2,13 @@
 
 A modern, high-performance personal portfolio built with React, Vite, and Tailwind CSS. Featuring a premium warm aesthetic, smooth Framer Motion animations, and a locked mobile-first responsive design.
 
+🔗 Live Portfolio:
+https://portfolio-srikanth-self.vercel.app/
+
+📸 Screenshots
+
+<img width="1914" height="932" alt="Screenshot 2026-02-22 184319" src="https://github.com/user-attachments/assets/0009c227-c3d1-41e0-ba12-0952507b7f02" />
+
 ## ✨ Features
 - **Modern UI/UX**: Premium color palette (Orange, Pink, Violet) with glassmorphism effects.
 - **Fluid Animations**: Staggered scroll reveals and interactive components powered by `framer-motion`.
