@@ -12,9 +12,9 @@ const fadeUp = {
 };
 
 const highlights = [
-    { icon: <Code2 size={22} className="text-sky-400" />, label: 'Problem Solving', desc: 'Analytical thinker with a passion for clean, efficient code.' },
-    { icon: <Rocket size={22} className="text-indigo-400" />, label: 'Full Stack', desc: 'Experience across frontend, backend, and database layers.' },
-    { icon: <Lightbulb size={22} className="text-violet-400" />, label: 'Continuous Learner', desc: 'Always exploring new technologies and best practices.' },
+    { icon: <Rocket size={22} className="text-orange-400" />, label: 'Fresher Full-Stack Dev', desc: 'Shipped real apps end-to-end — from React frontends to Flask & FastAPI backends.' },
+    { icon: <Code2 size={22} className="text-sky-400" />, label: 'Problem Solver', desc: 'Strong in DSA & system design; passionate about writing clean, efficient code.' },
+    { icon: <Lightbulb size={22} className="text-violet-400" />, label: 'Fast Learner', desc: 'Quickly picks up new stacks — currently growing in React, Node.js & cloud deployments.' },
 ];
 
 export default function About() {
@@ -62,9 +62,9 @@ export default function About() {
 
                             <div className="space-y-3 text-sm">
                                 {[
-                                    { label: 'Role', value: 'CS Engineering Graduate' },
+                                    { label: 'Role', value: 'Fresher Full-Stack Developer' },
                                     { label: 'University', value: 'VTU, India' },
-                                    { label: 'Focus', value: 'Backend & Full Stack Dev' },
+                                    { label: 'Stack', value: 'React · Flask · Node.js' },
                                     { label: 'Status', value: 'Open to Opportunities ✅' },
                                 ].map((item) => (
                                     <div key={item.label} className="flex justify-between border-b border-slate-800 pb-2">
