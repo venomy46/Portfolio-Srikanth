@@ -5,15 +5,16 @@
 export const personalInfo = {
     name: 'Srikanth M',
     displayName: 'Srikanth',
-    title: 'Computer Science Engineering Graduate',
-    roles: ['Python Developer', 'Full Stack Developer', 'Backend Developer'],
+    title: 'Fresher Full-Stack Developer',
+    roles: ['Full Stack Developer', 'Python Developer', 'Backend Developer'],
     email: 'srikanthvenomy@gmail.com',
     phone: '+91 9591726986',
     github: 'https://github.com/venomy46',
     linkedin: 'https://www.linkedin.com/in/srikanth-m-b22105276/',
+    resume: '/SrikanthM_developer.pdf',
 };
 
-export const summary = `Computer Science Engineering graduate with practical experience gained through academic and independent projects. Strong foundation in programming, backend development, and web technologies, with experience in designing and implementing structured applications. Interested in software development roles involving problem-solving, system design, and continuous learning.`;
+export const summary = `Fresher Full-Stack Developer and Computer Science Engineering graduate passionate about building end-to-end web applications. Skilled in Python, React.js, Node.js, and RESTful API design, with hands-on experience shipping real projects to production. Eager to contribute to a team where I can grow rapidly and solve meaningful problems.`;
 
 export const education = [
     {
@@ -76,6 +77,38 @@ export const skills = [
 export const projects = [
     {
         id: 1,
+        title: 'Hangman AI Game',
+        subtitle: 'AI-Powered Word Guessing Game',
+        description: [
+            'Built a fully interactive Hangman game where an AI engine picks and evaluates words based on letter frequency.',
+            'Deployed as a 100% static HTML/JS app — no backend required — via Vercel for instant load times.',
+            'Features smooth animations, difficulty levels, and a responsive design playable on any device.',
+        ],
+        techStack: ['JavaScript', 'HTML', 'CSS', 'AI Logic', 'Vercel'],
+        color: 'from-emerald-500/20 to-teal-600/20',
+        borderColor: 'border-emerald-500/30',
+        icon: '🤖',
+        liveLink: 'https://hangman-ai-game.vercel.app',
+        githubLink: 'https://github.com/venomy46/Hangman-Ai-Game',
+    },
+    {
+        id: 2,
+        title: 'Bharat Stock Portfolio',
+        subtitle: 'Real-Time Indian Stock Market Tracker',
+        description: [
+            'Developed a Flask-based web application to track and manage Indian (NSE/BSE) stock portfolios in real time.',
+            'Integrated live stock data feeds and built a WebSocket-powered dashboard for live price updates.',
+            'Deployed on Render with production-grade settings including proper port binding and WebSocket support.',
+        ],
+        techStack: ['Flask', 'Python', 'WebSocket', 'HTML', 'CSS', 'JavaScript', 'Render'],
+        color: 'from-orange-500/20 to-amber-600/20',
+        borderColor: 'border-orange-500/30',
+        icon: '📊',
+        liveLink: 'https://bharath-portfolio-zzet.onrender.com',
+        githubLink: 'https://github.com/venomy46/Bharath-portfolio',
+    },
+    {
+        id: 3,
         title: 'Foodie Vision',
         subtitle: 'Smart Food Recipe Web Application',
         description: [
@@ -88,9 +121,10 @@ export const projects = [
         borderColor: 'border-sky-500/30',
         icon: '🍽️',
         liveLink: 'https://food-app-recipe-bfst.onrender.com',
+        githubLink: 'https://github.com/venomy46/Foodie-vision',
     },
     {
-        id: 2,
+        id: 4,
         title: 'Student Stress Predictor',
         subtitle: 'Predictive Analysis of Student Stress Levels',
         description: [
